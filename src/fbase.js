@@ -1,5 +1,7 @@
 import { initializeApp } from "firebase/app";
-import { getAuth } from "firebase/auth";
+import { getAuth } from "firebase/auth"; //사용자 인증용
+import "firebase/database"; //트윗용 database
+
 // import firebase from 'firebase/app';
 
 // Your web app's Firebase configuration
